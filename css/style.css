@@ -367,6 +367,7 @@ main>.btt {
     padding: 5px;
     font-weight: normal;
     font-size: 17px;
+    width: 100%;
 }
 
 /* End Nearest Order Page */
@@ -582,7 +583,7 @@ main>.btt {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    margin: 15px 0;
+    margin: 15px 0 0;
 }
 
 .orders .numbers {
