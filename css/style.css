@@ -574,12 +574,6 @@ main>.btt {
     -o-transition: 1s;
 }
 
-.orders .numbers {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-    margin: 15px 0 0;
-}
-
 .orders {
     background-color: white;
     padding: 10px;
@@ -588,8 +582,15 @@ main>.btt {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    margin-bottom: 10px;
+    margin: 15px 0;
 }
+
+.orders .numbers {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    margin: 15px 0 0;
+}
+
 
 .orders .numbers>button {
     border: 1px solid;
